@@ -26,9 +26,10 @@ ResNet34 has demonstrated remarkable performance by achieving high accuracy on v
 
 
 **ResNet34**
+
 ![test](https://i.ibb.co/WtG7hJH/The-structure-of-the-Res-Net34-CNN-Network-The-input-of-the-network-is-the-preprocessed.png)
 
-*I have aligned the my image dataset to ImageNet*
+*I have aligned  my image dataset to ImageNet dataset since ResNet34 is trained on ImageNet*
 
 #### Transfer learning
 Transfer learning is a machine learning technique where a model trained on one task is repurposed or fine-tuned for a different, but related, task. Instead of training a model from scratch, transfer learning leverages knowledge gained from solving one problem to improve performance on a different, but related, problem.
@@ -44,15 +45,19 @@ The training and evaluation process is accomplished using the provided utility f
 
 
 **Metrics; first 10 epochs with lr=0.001**
+
 ![Metrics](https://i.ibb.co/fM6ZP2g/image.png)
 
 **Metrics; second 10 epochs with lr=0.0001**
+
 ![Metrics](https://i.ibb.co/g4yT4F9/image.png)
 
 **Accuracy plot**
+
 ![Accuracy](https://i.ibb.co/nB0d8sq/image.png)
 
 **Loss plot**
+
 ![Loss](https://i.ibb.co/jkLcZTB/image.png)
 
 
@@ -65,16 +70,20 @@ The training process is monitored using a validation set, and model performance 
 The training was done for 5 epochs, at the end of 5th epoch accuracy reached `94.7%`
 
 **Metrics**
+
 ![Metrics](https://i.ibb.co/J3t4mX9/image.png)
 
 
 **Accuracy plot**
+
 ![Accuracy](https://i.ibb.co/SPryLHG/image.png)
 
 **Loss plot**
+
 ![Loss](https://i.ibb.co/X44VCd6/image.png)
 
 **Learning rate finder**
+
 ![LR](https://i.ibb.co/5xmW9bF/image.png)
 # Results 
 
